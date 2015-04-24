@@ -2,7 +2,7 @@ public class Collatz {
     //Consider a sequence of positive integers starting with x.If x is
     // even,the next integer in the sequence is x/2.If x is odd, the
     // next integer in the sequence is 3 * x + 1. The sequence stops when it
-    // reaches1.
+    // reaches 1.
     //
     // For example, if x is 7, the sequence is
     //
@@ -43,5 +43,6 @@ public class Collatz {
 
     public static void main(String[] args) {
         System.out.println(maxLoop(1, 100000));
+        System.out.println(loopCount(7));
     }
 }
